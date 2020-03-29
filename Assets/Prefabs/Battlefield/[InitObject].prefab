@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4822395337479550739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4822395337479550736}
+  - component: {fileID: 4822395337479550737}
+  m_Layer: 0
+  m_Name: '[InitObject]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4822395337479550736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4822395337479550739}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6453785, y: 0.04490146, z: -1.9472656}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4822395337479550737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4822395337479550739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526e6953329a9b84e9b18337615bee5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerData: {fileID: 11400000, guid: 9b8a432ea50e1a24581c3d10b58a657a, type: 2}
+  LevelDataObject: {fileID: 11400000, guid: 1f297f92d01e8e346930b5a4f25b0e74, type: 2}
+  MonsterData:
+  - {fileID: 11400000, guid: 7e7f68693a3bc4b46bc1371441385007, type: 2}
+  - {fileID: 11400000, guid: 2e33ebcba5540e149b6db60236c59966, type: 2}
+  - {fileID: 11400000, guid: 944856921e297b146be5d6dd29e7bb99, type: 2}
+  - {fileID: 11400000, guid: 31e7fda589d1b3b41aa3b4445f970d2e, type: 2}
+  TowerData:
+  - {fileID: 11400000, guid: 01cb23eeb601f354dbc34157f425d6f0, type: 2}
+  - {fileID: 11400000, guid: 9484ac1ee804f7f4e9bbf114751aab23, type: 2}
+  - {fileID: 11400000, guid: 5e425209af441a6498e21fa4e01be5cd, type: 2}
+  - {fileID: 11400000, guid: 64892ab9966d654449c642937270db4f, type: 2}
+  - {fileID: 11400000, guid: ab655baea9cdade4f85cf71a53623a61, type: 2}
+  - {fileID: 11400000, guid: c6860de488cf5a8468c88b68b0501c4d, type: 2}
+  - {fileID: 11400000, guid: f4a61070fc45e8e4fbd708b3757e5c83, type: 2}
+  - {fileID: 11400000, guid: 8aaaa4a12d704d648bd8d841eebe743a, type: 2}
+  - {fileID: 11400000, guid: ecceafb6fc4632b45b84aabec38bff37, type: 2}
+  ArrowBulletData: {fileID: 11400000, guid: 6d375326998db0d4da05a11bdc86807c, type: 2}
+  DeathrayBulletData: {fileID: 11400000, guid: bac34578410634848b0eec0fcd8617f0, type: 2}
+  FreezeBulletData: {fileID: 11400000, guid: 1a75e0503d3e2bf4bb1e9559da335c5c, type: 2}
+  SpikeballBulletData: {fileID: 11400000, guid: bd652891894744940b1bfd9d2d7a8e32,
+    type: 2}

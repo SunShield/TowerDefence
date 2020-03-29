@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4898dcaae50be45984afe39db5b687, type: 3}
+  m_Name: Leve1lData
+  m_EditorClassIdentifier: 
+  Data:
+    IngameName: Level 1
+    CastleLife: 20
+    StartingCoins: 100
+    Waves:
+    - GroupsData:
+      - MonsterType: Flaming Ogre
+        MonsterAmount: 5
+        MonsterSpawnDelay: 1
+        NextGroupDelay: 2
+        SpawnPointIndex: 0
+        MonsterPathIndex: 0
+      - MonsterType: Hellhound
+        MonsterAmount: 10
+        MonsterSpawnDelay: 0.4
+        NextGroupDelay: 0
+        SpawnPointIndex: 0
+        MonsterPathIndex: 1
+      NextWaveTime: 4
+    - GroupsData:
+      - MonsterType: Hellhound
+        MonsterAmount: 8
+        MonsterSpawnDelay: 0.03
+        NextGroupDelay: 0.5
+        SpawnPointIndex: 1
+        MonsterPathIndex: 2
+      - MonsterType: Hellhound
+        MonsterAmount: 8
+        MonsterSpawnDelay: 0.03
+        NextGroupDelay: 0
+        SpawnPointIndex: 0
+        MonsterPathIndex: 1
+      - MonsterType: Flame Warden
+        MonsterAmount: 2
+        MonsterSpawnDelay: 0.3
+        NextGroupDelay: 0.3
+        SpawnPointIndex: 0
+        MonsterPathIndex: 0
+      - MonsterType: Flame Warden
+        MonsterAmount: 2
+        MonsterSpawnDelay: 0.3
+        NextGroupDelay: 0.3
+        SpawnPointIndex: 1
+        MonsterPathIndex: 2
+      - MonsterType: Hellhound
+        MonsterAmount: 8
+        MonsterSpawnDelay: 0.03
+        NextGroupDelay: 0.5
+        SpawnPointIndex: 1
+        MonsterPathIndex: 2
+      - MonsterType: Hellhound
+        MonsterAmount: 8
+        MonsterSpawnDelay: 0.03
+        NextGroupDelay: 0
+        SpawnPointIndex: 0
+        MonsterPathIndex: 1
+      NextWaveTime: 0
+  LevelName: Level1

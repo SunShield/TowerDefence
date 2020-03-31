@@ -32,7 +32,6 @@ namespace TowerDefence.Unity.Bullet
 
 		protected override void DoOnEnemyHit(Collider2D other)
 		{
-			Debug.Log("Hit");
 			MonsterController controller = other.GetComponent<MonsterController>();
 			MonsterHitDamageData data = GetHitDamageData();
 			controller.TryReceiveHit(data);

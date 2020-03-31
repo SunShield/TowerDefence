@@ -19,7 +19,7 @@ namespace TowerDefence.Unity.Tower
 	{
 		public float GetTargetPriority(MonsterController candidate)
 		{
-			return -candidate.GetMover().GetDistanceToCastle();
+			return candidate != null ? -candidate.GetMover().GetDistanceToCastle() : -1f;
 		}
 	}
 
